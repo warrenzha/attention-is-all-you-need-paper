@@ -36,7 +36,7 @@ np.random.seed(0)
 class TrainingApp:
     def __init__(self):
 
-        log.info('----- Training Started -----')
+        log.info('----- Evaluating Started -----')
 
         # Device handling
         if wandb.config.DEVICE=='gpu':
